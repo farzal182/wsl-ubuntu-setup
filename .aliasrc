@@ -1,0 +1,16 @@
+alias zshrc="nano ~/.zshrc"
+alias ohmyzsh="nano ~/.oh-my-zsh"
+alias python="python3"
+alias q="exit"
+alias c="clear"
+alias home="cd ~"
+alias ..="cd .."
+alias ...="cd ..; cd .."
+
+#custom
+alias upd="sudo apt-get update"
+alias upg="sudo apt-get upgrade"
+alias pel-on="source ~/pelican/bin/activate"
+alias off="deactivate"
+alias blog="cd ~/farzal.space; make html && make serve"
+alias typer="~/.cargo/bin/ttyper"
